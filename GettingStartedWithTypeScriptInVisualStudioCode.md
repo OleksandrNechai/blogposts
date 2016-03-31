@@ -25,7 +25,8 @@ There are a couple of options for development environment one might select from.
  * Create a folder for your project.
  * Open Visual Studio Code, File->Open Folder... Select your folder. Now you can create your TypeScript file with .ts extension. Note how Visual Studio Code recognizes TypeScript and provides correct autocomplete.
  ![](http://puu.sh/nYBSe/1a9f32a6ef.png)
-* Save your file and it will be ready to be compiled and run. Open command prompt in the folder of your project and type `tsc yourfilename.ts`. The compiler will generate code into yourfilename.js. Now you just run node with JS file as an input to see the result of code execution. And here we go! (my file is named prog.ts in the screenshot) ![](http://puu.sh/nZEtY/ea62f3b464.png)
+* Save your file and it will be ready to be compiled and run. Open command prompt in the folder of your project and type `tsc yourfilename.ts`. The compiler will generate code into yourfilename.js. Now you just run node with JS file as an input to see the result of code execution. And here we go! (my file is named prog.ts in the screenshot) 
+![](http://puu.sh/nZEtY/ea62f3b464.png)
 * You will probably have more than one TS file. But you will always have one which includes others. To compile everything you need to invoke compiler only for this single TS file.
 
 ###Learning more about Visual Studio Code
