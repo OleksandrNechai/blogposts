@@ -1,6 +1,6 @@
 ###Motivation
 
-This post might be useful to someone who has just started learning TypeScript and wants easily and fast setup an environment for doing course assignments or little educational projects. This is definitely NOT for JavaScript professional.
+This post might be useful to someone who has just started learning TypeScript and wants to setup easily and fast an environment for doing course assignments or little educational projects. This is definitely NOT for JavaScript professional.
 
 There are a couple of options for development environment one might select from.
 * [TypeScript Playground](http://www.typescriptlang.org/play/) is a great tool to play with TypeScript during watching some lecture or presentation. However your code is in the browser and you are limited to the amount of code you can effectively write and store. For example, it will be inconvenient to use playground during accomplishing assignments fro [TypeScript course](https://www.edx.org/course/introduction-typescript-microsoft-dev201x-1). 
