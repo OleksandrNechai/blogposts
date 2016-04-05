@@ -52,7 +52,7 @@ Now let's have a look at possible JavaScript implementation (I use lodashjs libr
 var turnover = [56.0, 59, 67, 64, 60, 61, 68, 73, 78, 75, 81, 84];
 
 var growth = _.chain(turnover)
-    .drop(1)
+    .drop()
     .zipWith(_.dropRight(turnover), function(x, y) {
         return x / y;
     })
