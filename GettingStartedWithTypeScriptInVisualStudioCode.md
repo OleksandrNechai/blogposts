@@ -1,4 +1,4 @@
-###Motivation
+### Motivation
 
 This post might be useful to someone who has just started learning TypeScript and wants to setup easily and fast an environment for doing course assignments or little educational projects. This is definitely NOT for JavaScript professional.
 
@@ -18,7 +18,7 @@ There are a couple of options for development environment one might select from.
   * It has TypeScript support i.e. it shows derived types of code expressions and performs code completion
   * It has folder based projects, which means you don't have to create and support project file like in Visual Studio 
   
-###Setup
+### Setup
  * Install Visual Studio Code. Which should be easy, right? Just run an installer.
  * Install [Node](https://nodejs.org/en/). Also just an installer. Don't be scared, it's just simple program which will execute JS code. For JS development, you will need it anyway. Running code in the browser will require more ceremony. I love running my little educational programs from the command line like in good old university days :-). 
  * Install TypeScript. It is even easier. Just run in the command prompt `npm install -g typescript`. This will install TypeScript globally on your computer, i.e. now you can run the compiler from every folder.
