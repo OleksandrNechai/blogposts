@@ -29,5 +29,5 @@ There are a couple of options for development environment one might select from.
 ![](http://puu.sh/nZEtY/ea62f3b464.png)
 * You will probably have more than one TS file. But you will always have one which includes others. To compile everything you need to invoke compiler only for this single TS file.
 
-###Learning more about Visual Studio Code
+### Learning more about Visual Studio Code
 There is a lot of materials on the internet which will help you learning about VS Code. But I would like to recommend [John Papa's article](http://johnpapa.net/getting-started-with-visual-studio-code/) which I find to be a nice and easy introduction to what you can do with VS Code.
