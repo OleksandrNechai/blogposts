@@ -1,0 +1,27 @@
+{
+  "name": "blogposts",
+  "version": "1.0.0",
+  "description": "my blog posts",
+  "main": "compile.js",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "github": "^0.2.4",
+    "html-entities": "^1.2.0",
+    "marked": "^0.3.5",
+    "read-file": "^0.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OleksandrNechai/blogposts.git"
+  },
+  "author": "Oleksandr Nechai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OleksandrNechai/blogposts/issues"
+  },
+  "homepage": "https://github.com/OleksandrNechai/blogposts#readme"
+}
