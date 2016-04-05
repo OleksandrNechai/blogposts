@@ -46,7 +46,7 @@ public static class LinqExtnsions
 }
 ```
 
-Now let's have a look at possible JavaScript implementation (I use lodashjs library here to organize array processing pipeline, not surprisingly there is also a zipping function named zipWith. In general, every functional language library has some kind of zipping function)
+Now let's have a look at possible JavaScript implementation (I use lodashjs library here to organize array processing pipeline, not surprisingly there is also a zipping function named zipWith. In general, every functional language or library has some kind of zipping function)
 
 ````js
 var turnover = [56.0, 59, 67, 64, 60, 61, 68, 73, 78, 75, 81, 84];
