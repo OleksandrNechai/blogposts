@@ -5,7 +5,14 @@ var marked = require('marked');
 var Entities = require('html-entities').XmlEntities;
 var entities = new Entities();
 
-var sourceFile = 'LearningFromAPLitemByItemFunctionApplication.md';
+var sourceFile = process.argv[2];
+
+try {
+    fs.accessSync(sourceFile, fs.F_OK);
+} catch (e) {
+    console.log(`File ${sourceFile} is not found.`);
+    process.exit();
+}
 
 var github = new GitHubApi({
     // required
@@ -34,8 +41,13 @@ github.repos.getContent({
     var source = fs.readFile(sourceFile, 'utf-8', function(err, source) {
         var code = marked(source);
         $ = cheerio.load(code);
-        $('p').attr('style','text-align: justify;');
+        $('p').attr('style', 'text-align: justify;');
         $('pre code').replaceWith(function() { return $(this).contents(); });
+        $('img').each(function() {
+            var imageFromCloud = map[$(this).attr('src')];
+            $(this).attr('src', imageFromCloud);
+            $(this).wrap(`<a href="${imageFromCloud}" target="_blank"></a>`);
+        });
         console.log(entities.decode($.html()));
     });
 
