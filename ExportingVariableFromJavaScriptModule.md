@@ -1,3 +1,5 @@
+# Exporting a variable from JavaScript module
+
 From time to time I do the same error when trying to export some variable from whatever kind of JavaScript module:
 
 ```JavaScript
