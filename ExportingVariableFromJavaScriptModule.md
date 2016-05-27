@@ -38,9 +38,9 @@ return {
 };
 ```
 
-Its value is copied from `name` variable and this value is reference to the "Alexander" string. So at this point both point at the same object. But then `s.setName("Ivan")` gives to the `name` variable (which is closed inside `setName` and `getName`) a new value, which is the reference to the "Ivan" string. The value of `s.name` does not change, therefore we get "Alexander" again from the `console.log(s.name)` expression. However `console.log(s.getName())` returnes "Ivan" because it closes `name` variable inside itself.
+Its value is copied from `name` variable and this value is reference to the "Alexander" string. So at this point both point at the same object. But then `s.setName("Ivan")` gives to the `name` variable (which is closed inside `setName` and `getName`) a new value, the reference to the "Ivan" string. The value of `s.name` does not change, therefore we get "Alexander" again from the `console.log(s.name)` expression. However, `console.log(s.getName())` returnes "Ivan" because it closes `name` variable inside itself.
 
-So the lesson here is to avoid exporting local variables as module's property. One should export function which closes local variable instead. Another interesting option is to use JavaScript's property feature like this:
+So the lesson here is to avoid exporting local variables as module's properties. One should export functions which close local variables instead. Another interesting option is to use JavaScript's property feature like this:
 
 ```Javascript
 return {
