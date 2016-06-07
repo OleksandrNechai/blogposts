@@ -2,7 +2,7 @@
 
 Do you want to have a really amazing tool under your belt? No problems! Just have a look at https://archive.org/web/. This is an archive of hundreds of billions of web pages. You can select whatever page you want to retrieve from the archive and then select restore point which is appropriate for your task. 
 
-Having this tool you can stop worrying that you can loose some information if your site goes down or hosting provider goes down or whatever happens. Let me give you two examples how I was using it. 
+Having this tool you can stop worrying that you can lose some information if your site goes down or hosting provider goes down or whatever happens. Let me give you two examples how I was using it. 
 
 First, I had a customer, whose site I needed to update and move to WordPress. Of course, I did a backup, but when I finished an update, backup version did not work properly. I had two options: either go and fix minor things to have the backup working fine or just go to the web archive. I went to the web archive and it was close to the miracle, there were many restore points which I could select and enjoy.  
 
