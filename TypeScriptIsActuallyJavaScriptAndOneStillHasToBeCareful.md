@@ -16,7 +16,7 @@ let greeter = new Greeter("Alexander");
 console.log(greeter.greet());  // Hello, Alexander
 ```
 
-Now, lets make slight change to the last two codelines:
+Now, lets make slight change to the last two code lines:
 
 ```TypeScript
 let greeter = new Greeter("Alexander").greet;
@@ -46,7 +46,7 @@ public class Program
 }
 ```
 
-Now, even knowing all rules of `this` binding (take a look at this article if you are not aware of these rules), I was caught when I was coding in TypeScript class for Angular 2 framework: 
+Now, even knowing all rules of `this` binding (take a look at this [article](http://rainsoft.io/gentle-explanation-of-this-in-javascript/?utm_source=javascriptweekly&utm_medium=email) if you are not aware of these rules), I was caught when I was coding in TypeScript class for Angular 2 framework: 
 
 
 ```TypeScript
@@ -69,6 +69,6 @@ export class Timer {
 }
 ```
 
-See how `updateClock` local function starts accessing `Timer` properties? Seriously, I was debugging this code full of surprise trying to understand why am I getting an error. And the reason was that `updateClock()` is invoked without binding to any object which meant binding to the global scope again.
+See how `updateClock` local function starts accessing `Timer` properties via `this`? Seriously, I was debugging this code full of surprise trying to understand why am I getting an error. And the reason was that `updateClock()` is invoked without binding to any object which meant binding to the global scope again.
 
 **Conclusion**: TypeScript is great, but guys, don't relax, remember you are still coding in JavaScript, not C# or Java. And probably avoid using classes and `this` altogether.
