@@ -30,7 +30,7 @@ Now all your branches point to different commits! The `origin/master` branch can
 
 At this point, your local master branches have clear divergence in their path. But what you probably want when you press `sync` button is to have them synchronized. This is done by the second component of `pull` command - `merge`. Its task is to take the `origin/master` changes, in our case the commit C and incorporate it in `master`, in other words, it unites two histories in one:
 
-![](http://puu.sh/pWzVO/8356ee9c5c.png)
+![](http://puu.sh/q1alT/b3927f553a.png)
 
 Merge commit is special, it can have more than one parent. At this point, we can answer the last question: What does diff tool show when one looks at changes made in this automatic commit?. So on the left side we have `master` branch before the merge and on the right side - `master` branch after the merge. Now, `origin/master` is a bit too old. The `push` command will bring everything to balance by updating remote branch with local one:  
 
