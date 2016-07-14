@@ -48,4 +48,4 @@ Confusion adds GitHub Desktop wich tries to be smart and hides from the user C c
 
 Hope this helps you understanding your `sync` button. To avoid complications of merging things, always do `sync` just before making your commit and don't forget to do `sync` after you have done your commit.
 
-If you like this post, please follow me on ![twitter](https://twitter.com/OleksandrNechai), see you there!
+If you like this post, please follow me on [twitter](https://twitter.com/OleksandrNechai), see you there!
