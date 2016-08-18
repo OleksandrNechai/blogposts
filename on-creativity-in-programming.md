@@ -1,4 +1,4 @@
-###Про творчість у програмуванні
+### Про творчість у програмуванні
 
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnUbfRZsUQIzR7ayIsSHbu92ieEkNGzLSk94B4r17E25Swe1lE) 
 
