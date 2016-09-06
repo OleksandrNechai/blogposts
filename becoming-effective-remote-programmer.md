@@ -1,4 +1,4 @@
-###Becoming effective remote programmer
+###Becoming an effective remote programmer
 
 I have been working from home as a web developer for one year now. But before that I was a web freelancer for almost 4 years and for 2 years I worked in the office at SimCorp but my whole team was sitting in Copenhagen. So, I am a pretty experienced remote worker.  I love this way to work and thus I try to be effective at it. In this post, I will share what I think it takes to be an effective remote programmer (non-tooling tips, which are covered [here](http://www.nechai.net/2016/02/21/amazing-10-tools-for-remote-software-developer/)). 
 
