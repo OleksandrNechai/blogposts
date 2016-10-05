@@ -11,7 +11,7 @@ if (typeof x === 'string') {
 }
 ```
 
-Very different from C# or Java, right? It made me thrilled when I first learned about it. It has a limitation though:
+Very different from C# or Java, right? It made me thrilled when I first learned about it. It has a limitation, though:
 
 ```ts
 let x: number | string
@@ -23,9 +23,9 @@ if (typeof x === 'string') {
 }
 ```
 
-It is a bit puzzling at first glance. Why? How in the world `x` is not number in the `else` block? The root cause here is that TypeScript doesn't know what `map` function is going to do with the lambda function passed to it. If `map` will invoke the lambda right away - that's fine, but what if it, for example, will call `setTimeOut` and pass the lambda function into it? In such a case `i => i * x` will be executed after time out, well after control flow will lieve the `else` block. Becasue of this possibility TypeScript takes a pessimistic position and considers `x` to be `number | string` inside lambda function `i => i * x`.
+It is a bit puzzling at first glance. Why? How in the world `x` is not a number in the `else` block? The root cause here is that TypeScript doesn't know what `map` function is going to do with the lambda function passed to it. If `map` will invoke the lambda right away - that's fine, but what if it, for example, will call `setTimeOut` and pass the lambda function into it? In such a case `i => i * x` will be executed after the timeout, well after control flow will leave the `else` block. Because of this possibility TypeScript takes a pessimistic position and considers `x` to be `number | string` inside lambda function `i => i * x`.
 
-How to deal with this problem? There are several approaches. First, you can tell TypeScript that nothing bad is going to happen by limiting the scope of `x`. For now it is global. Limiting it to the function, which does not change `x` fixes the problem:
+How to deal with this problem? There are several approaches. First, you can tell TypeScript that nothing bad is going to happen by limiting the scope of `x`. For now, it is global. Limiting it to the function, which does not change `x` fixes the problem:
 
 ```ts
 function f(x: number | string) {
@@ -61,4 +61,4 @@ if (typeof x === 'string') {
 }
 ```
 
-I have introduced `someFunciton` only to stop type inference mechanism to infer the type of `x` from the assignment. If I wrote  `const x: number | string = 5`, for example, the type inference mechanism would have infered the type of `x` to be `number` (`never` inside if block) even though I have declared it to be `number | string`.
+I have introduced `someFunciton` only to stop type inference mechanism to infer the type of `x` from the assignment. If I wrote  `const x: number | string = 5`, for example, the type inference mechanism would have inferred the type of `x` to be `number` (`never` inside if block) even though I have declared it to be `number | string`.
