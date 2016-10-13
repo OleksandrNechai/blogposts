@@ -1,6 +1,6 @@
 ### My 2 cents on why you should try TypeScript
 
-It has been said a lot about the value proposition of TypeScript. But I still want to add my 2 cents and talk about the reasons to use TypeScript from the personal perspective. So, here is my list of reasons to use TypeScript:
+It has been said a lot about the value proposition of TypeScript. But I still want to add my 2 cents and talk about the reasons to use TypeScript from the personal perspective. So, here is my list:ssd
 
 * It's main designer is Anders Hejlsberg. Well, strange reason, I know. This guy has designed Turbo Pascal,  Delphi, and C#. All widely adopted and great technologies. People love them.  Let's face it, experience matters and I think the guy with such a background behind TypeScript increases its chances to succeed.
 * It is supported and developed by Microsoft. Again strange reason, but it seems to me companies are good at certain things at it is very hard for them to become good at other things. Look at to Google's social network Google+. Is it nearly as good as Facebook? Another example is Microsoft's Bing search engine. Is it as good as Google's search? Microsoft has always been good at creating great developer tools and this increases TypeScript's chances to succeed.
