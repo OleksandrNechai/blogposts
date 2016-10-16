@@ -13,7 +13,7 @@
 
 ```json
 {
-    "filesGlob":[
+    "include":[
         "ps-movies/*.ts",
         "node_modules/@types/**/.d.ts"
     ],
