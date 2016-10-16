@@ -8,14 +8,23 @@
 - Configure not to check td.ts (`--skipLibCheck` `--skipDefaultLibCheck`) - improves compilation speed
 - set watch show how parsing is not happening
 - Show angular is not visible
-- Install typings of angular `npm install --save @types/lodash`
+- Install typings of angular `npm install --save @types/angular`
 - Create tsconfig, set globes
 
 ```json
-  "filesGlob": [
-    "**/*.ts",
-    "typings/index.d.ts"
-  ] 
+{
+    "filesGlob":[
+        "ps-movies/*.ts",
+        "node_modules/@types/**/.d.ts"
+    ],
+    "compilerOptions": {
+        "strictNullChecks": true,
+        "skipDefaultLibCheck": true,
+        "skipLibCheck": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true
+    }
+}
 ```
 - angular becomes visible (if not reaload file in VSC)
 - Set strict null checks (strictNullChecks), explain
