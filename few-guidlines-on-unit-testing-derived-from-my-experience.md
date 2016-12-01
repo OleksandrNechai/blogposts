@@ -1,4 +1,4 @@
-#My guidlines on automated testing
+#Few guidlines on unit testing derived from my experience
 
 When I first started using unit testing in my practice, I had no idea what I was doing. I was also frustrated. It made little sense to me to have everything unit tested because writing tests and preparing test data took me too much time.
 
