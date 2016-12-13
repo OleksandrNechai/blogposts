@@ -45,6 +45,7 @@ What??? This way official React's page teaches us to access values from the even
 ![React docs snapshot](http://puu.sh/sNNlC/449f01269a.png)
 
 When we first encountered this problem, we decided there was a bug in TypeScript type definitions for React. But later we discovered, that type definitions actually have another propery for `SyntheticEvent<T>` (type of `target`), named `currentTarget`, whose type is different:
+
 ![](http://puu.sh/sNNAn/48e2044842.png) 
 
 Hmm, let's see what dumentation has to say about `currentTarget`:
