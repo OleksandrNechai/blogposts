@@ -42,7 +42,7 @@ function handleClick(e: React.MouseEvent<HTMLButtonElement>)
 ```
 What??? This way official React's page teaches us to access values from the event targets!
 
-![React docs snapshot](http://puu.sh/sNNlC/449f01269a.png)
+![React docs snapshot](http://puu.sh/sNPzM/7e43ac21fd.png)
 
 When we first encountered this problem, we decided there was a bug in TypeScript type definitions for React. But later we discovered, that type definitions actually have another propery for `SyntheticEvent<T>` (type of `target`), named `currentTarget`, whose type is different:
 
