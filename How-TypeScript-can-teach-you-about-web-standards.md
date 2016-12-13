@@ -7,14 +7,14 @@ But what I have discovered is that TypeScript can even teach you web standards. 
 First, TypeScript can teach you JavaScript itself and save you from silly errors. Look at this code and try to answer the questions (`--strictNullChecks`):
 
 ```ts
-    function f(x: number | null)
-    {
-        if (typeof x === 'null') {
-            let y = x;  // what is the type of y?
-        } else {
-            let z = x;  // what is the type of z?
-        }
+function f(x: number | null)
+{
+    if (typeof x === 'null') {
+        let y = x;  // what is the type of y?
+    } else {
+        let z = x;  // what is the type of z?
     }
+}
 ```
 
 After you gave it some thought, here is the answerL the type of `y` is `never` and type of `z` is `number | null`. If you answered correctly, you are great JavaScript developer with exceptional memory. The type `never` is given to `y` because that line will never execute. This is because of JavaScript design flaw which defines this expression to be `true`: `typeof null === 'object'`. Having learned this, now, what are the types of `y` and `z`?
