@@ -30,7 +30,7 @@ function f(x: number | null)
 }
 ```
 
-Well, you are totally right, `y` is `null`, because `'typeof null === 'object'` is `true`. And since `true` part of the `if` statement has dealt with `null`, the type of `z` is just `number`.
+Well, you are totally right, `y` is `null`, because `'typeof null === 'object'` is `true`. And since true part of the `if` statement has dealt with `null`, the type of `z` is just `number`.
 
 Now, lets have a look at second example, now TypeScript will tech us something about DOM API. Have a look at this code (it used to handle React button click event):
 
