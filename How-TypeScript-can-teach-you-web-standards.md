@@ -2,7 +2,7 @@
 
 Recently my team decided to migrate all views in our Angular 1.x application to React. To me, the value of React is doubled if used together with TypeScript. I enjoy developing views when I have autocompleted and static checks for the view model, used in the view. I also can safely rename  elements of the view model, which I prefer doing often and after I have already worked with the model and realized what the best name could be. Moreover, JSX in TypeScript is also statically checked, so you can not make mistake there as well. All these merits are impossible in Angular 1.x and Angular 2. Both have special DSLs for describing views and of course those DSL are not as powerful as TypeScript when it comes to static type checks.
 
-But what I have discovered is that TypeScript can even teach you web standards. These standards are not verly consistent but we still have to use them correctly. Let me give you few examples. 
+But what I have discovered is that TypeScript can even teach you web standards. These standards are not very consistent but we still have to use them correctly. Let me give you few examples. 
 
 First, TypeScript can teach you JavaScript itself and save you from silly errors. Look at this code and try to answer the questions (`--strictNullChecks`):
 
