@@ -61,7 +61,7 @@ function qsort([x, ...xs]) {
   } else {
     const smaller = xs.filter(a => a <= x);
     const larger = xs.filter(a => a > x);
-    return qsort(smaller).concat(x,qsort(larger));
+    return qsort(smaller).concat(x, qsort(larger));
   }
 }
 ```
