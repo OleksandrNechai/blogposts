@@ -22,7 +22,7 @@ From the spec:
 
 >The Null type corresponds to the similarly named JavaScript primitive type and is the type of the null literal. The Undefined type corresponds to the similarly named JavaScript primitive type and is the type of the undefined literal. The Null type is a subtype of all types, except the Undefined type. The undefined type is a subtype of all types.
 
-So from the spec, these types are the types whose domains consist of only one value and `undefined` is a specialization or subtype of `null`. However, in spite of having this specialization relationship you still can assign `null` to the variable of type `undefined` and vice versa, hence more specifically the domains of both `null` and `undefined` are two values `null` and `undefined`:   
+So from the spec, these types are the types whose domains consist of only one value and `undefined` is a specialization or subtype of `null`. However, despite of having this specialization relationship you still can assign `null` to the variable of type `undefined` and vice versa, hence more specifically the domains of both `null` and `undefined` are two values `null` and `undefined`:   
 
 ```ts
 let x: null;
