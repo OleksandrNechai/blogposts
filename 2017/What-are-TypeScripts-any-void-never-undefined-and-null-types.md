@@ -7,7 +7,7 @@ The simplest one is `any`. From the spec:
 
 >The Any type is used to represent any JavaScript value. The Any type is a supertype of all types and is assignable to and from all types. In general, in places where a type is not explicitly provided and TypeScript cannot infer one, the Any type is assumed.
 
-So, the `any` is the way how so-called optional typing is implemented in TypeScript. With `any` you effectively switch off the type checking and working in "JavaScript mode". It is very useful when you gradually migrate from JavaScript and have not yet figured out all types. This is one of the core TypeScript's values propositions.
+So, the `any` is the way how so-called optional typing is implemented in TypeScript. With `any` you effectively switch off the type checking and working in "JavaScript mode". It is very useful when you gradually migrate from JavaScript and have not yet figured out all types. This is one of the core TypeScript's value propositions.
 
 ```ts
 let x; // x is implicitly any
@@ -62,7 +62,7 @@ f1 = f3; // OK
 The `never` type represents the type of values that never occur. It is a bit weird, but it perfectly makes sense in cases when function never returns a value or when you write a code in the code branch which will never execute: 
 
 ```ts
-function infiniteLoop(): never {
+function infiniteLoop(): never { // since this function never returnes, its type is `never`
     while (true) {
     }
 }
