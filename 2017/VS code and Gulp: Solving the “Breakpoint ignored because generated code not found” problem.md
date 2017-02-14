@@ -1,4 +1,4 @@
-# VS code and Gulp: Solving the “Breakpoint ignored because generated code not found” problem
+# VS Code and Gulp: Solving the “Breakpoint ignored because generated code not found” problem
 
 Recently I have solved a problem which was bugging me for some time. I guess there are many reasons which can cause this problem and also there are many solutions to it, however, I will share my solution here and, hopefully, it will help someone else at least to start digging in the right direction. 
 
