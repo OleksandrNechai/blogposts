@@ -30,7 +30,7 @@ It is very important to start Chrome with remote debugging port 9222 opened. Rea
 
 Also, note that `webRoot` points to the `.temp` folder, which I alluded to later. It is so important that I will repeat. In this folder, I have JS files spat from the Babel and these files are later served to the browser. Hence this is one part of the puzzle: I tell VS Code which exactly files I want to map to those, opened in VS Code (those which are in the `src` folder).
 
-3. Used correctly setup gulp task to not only transpile JS code but also generate correct source maps. Since I am using Gulp with source maps plugin, I ensured that source maps do not include content on their own, but the reference to the root of my application's sources (from where my transpiler takes the source code, the `src` folder). Here is how my transpiling Gulp task looks like:
+* Used correctly setup gulp task to not only transpile JS code but also generate correct source maps. Since I am using Gulp with source maps plugin, I ensured that source maps do not include content on their own, but the reference to the root of my application's sources (from where my transpiler takes the source code, the `src` folder). Here is how my transpiling Gulp task looks like:
 
 ```js
 gulp.task('compile-js', function babel() {
