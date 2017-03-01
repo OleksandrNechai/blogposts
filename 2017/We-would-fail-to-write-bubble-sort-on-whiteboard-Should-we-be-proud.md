@@ -1,3 +1,5 @@
+# We would fail to write bubble sort on a whiteboard... Should we be proud? 
+
 Recently there was very interesting activity on the Twitter where famous programmers just admitted they are very bad at Computer Science (CS) and other fundamental concepts and still doing very well. 
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Hello, my name is David. I would fail to write bubble sort on a whiteboard. I look code up on the internet all the time. I don&#39;t do riddles.</p>&mdash; DHH (@dhh) <a href="https://twitter.com/dhh/status/834146806594433025">February 21, 2017</a></blockquote>
