@@ -22,7 +22,7 @@ Multiply it by diminishing returns law which states that the outcome of our effo
 Add the fact [that](http://www.bennorthrop.com/Essays/2016/reflections-of-an-old-programmer.php):
 > Half of what a programmer knows will be useless in 10 years.
 
-And I would emphasize here that the more detailed and specific the piece of knowledge, the faster it will become useless.
+And I would emphasize here that the more detailed and specific the piece of knowledge, the faster it will become useless. This kindof demotivates people to learn new stuff, especially if they are not going to use it immediately.
 
 Finally, add to the equation StackOverflow, YouTube, blogosphere and all other freely and immediately available resources which are capable to solve most of your programming problems in seconds.
 
