@@ -19,7 +19,7 @@ Now let's look Pareto principle and we see that roughly 80% of problems we can s
 
 Multiply it by diminishing returns law which states that the outcome of our efforts always diminishes. Hence learning 20% of the most used programming language features will provide much more value than learning next 20% of features. But learning that next 20% of features will require more effort because they are more rarely used and therefore it will be harder to remember them. 
 
-Add the fact (that)[http://www.bennorthrop.com/Essays/2016/reflections-of-an-old-programmer.php]:
+Add the fact [that](http://www.bennorthrop.com/Essays/2016/reflections-of-an-old-programmer.php):
 > Half of what a programmer knows will be useless in 10 years.
 
 And I would emphasize here that the more detailed and specific the piece of knowledge, the faster it will become useless.
