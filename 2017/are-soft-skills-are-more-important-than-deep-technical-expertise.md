@@ -1,6 +1,6 @@
  **Are soft skills more important than deep technical expertise?**
 
-Often I hear the ideas that technical skills are somewhat less important than for example communication or other soft skills. Here are some quotes to illustrate what people think:
+Often I hear the ideas that technical skills are somewhat less important than, for example, communication or other soft skills. Here are some quotes to illustrate what people think:
 
 Dustin Ewers, [DeveloperOnFire](http://developeronfire.com/podcast/episode-266-dustin-ewers-spreading-ideas)
 
