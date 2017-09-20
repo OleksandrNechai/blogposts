@@ -23,13 +23,13 @@ Imagine for some reason you decided you wanted to make `Student` immutable and n
 ![2](https://user-images.githubusercontent.com/14070311/30664882-d9e9e63a-9e57-11e7-82e8-8903192e328c.gif)
 
 Here is what I did (Windows 10):
-1) I searched for `};` this is just an anchor to make VS Code know what to highlight;
-2) `Alt+Enter` each highlighted piece of code gets cursor;
+1) `Ctrl+F` to search for `};`, which is just an anchor for VS Code to know what to highlight;
+2) `Alt+Enter` to give a cursor to each highlighted piece of code;
 3) I replace right curly bracket with round one and delete unneeded space;
-4) `Ctrl+Left Arrow` to navigate word by word to the left (in general all shortcuts to navigate text are very useful in this context because cursors are in different places of the lines );
+4) `Ctrl+Left Arrow` to navigate word by word to the left (in general all shortcuts to navigate text are very useful in this context because cursors may be in different places of the lines);
 5) I replace left curly bracket with round one and delete unneeded code `Name=`.
 6) `Escape` to remove multi-line cursor. Done!
 
 Additionally, to add cursors, you can hold `Ctrl+Alt` while pressing the up ↑ or down ↓ arrow keys or hold `Alt` and click left mouse button in desired spots.  But using search/`Alt+Enter` feature can make things even easier for very large files with hundreds of entries.
 
-Enjoy powerful coding! 
+Enjoy power coding! 
