@@ -1,6 +1,6 @@
 **Wrestling with large code amounts and winning: multiline editing.**
 
-Sometimes on the data processing project, it is needed to work with a large amount of code or other text which is similar but still is different enough so that it is not viable to extract it into the callable function. For example (yes it is contrived one) you might have a long list of object initializers like this:
+Sometimes on the data processing project, it is needed to work with a large amount of code or other text which is similar but still is different enough. So, it is not viable to extract it into the callable function. For example (yes it is contrived one) you might have a long list of object initializers like this:
 
 ```cs
 public static IEnumerable<Student> Students()
@@ -8,7 +8,7 @@ public static IEnumerable<Student> Students()
     yield return new Student{Name = "Karl"};
     yield return new Student{Name = "John"};
     yield return new Student{Name = "Benjamin"};
-    .... 200 other students
+    // .... 200!!! other students
     yield return new Student{Name = "Christopher"};
 }
 
