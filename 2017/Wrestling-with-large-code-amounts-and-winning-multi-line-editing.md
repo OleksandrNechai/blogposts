@@ -18,7 +18,7 @@ public class Student
 }
 ```
 
-Imagine for some reason you decided you wanted to make `Student` immutable and now you need to replace object initializers with constructor calls. Such a task sounds daunting and extremely boring (unless there is Resharper's feature that can do exactly what you want). Watch what is possible with Visual Studio Code. It saved me so much time in my last projects where I had to write tone and tones of DSL code to specify domain object definitions:
+Imagine for some reason you decided you wanted to make `Student` immutable and now you need to replace object initializers with constructor calls. Such a task sounds daunting and extremely boring (unless there is Resharper's feature that can do exactly what you want). Watch what is possible with Visual Studio Code. It saved me so much time in my last projects where I had to write tones and tones of DSL code to specify domain object definitions:
 
 ![2](https://user-images.githubusercontent.com/14070311/30664882-d9e9e63a-9e57-11e7-82e8-8903192e328c.gif)
 
